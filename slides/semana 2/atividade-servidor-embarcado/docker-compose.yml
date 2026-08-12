@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: atividade-servidor-embarcado
+    ports:
+      - "8080:8080"
