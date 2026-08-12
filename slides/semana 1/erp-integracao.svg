@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="560" fill="#ffffff"/>
+
+  <!-- Núcleo ERP -->
+  <circle cx="450" cy="280" r="95" fill="#4a3b8f"/>
+  <text x="450" y="270" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="bold">ERP</text>
+  <text x="450" y="296" text-anchor="middle" fill="#e3dcff" font-size="13">Base de dados</text>
+  <text x="450" y="313" text-anchor="middle" fill="#e3dcff" font-size="13">única e integrada</text>
+
+  <!-- Módulos ao redor -->
+  <!-- Financeiro -->
+  <line x1="450" y1="280" x2="180" y2="110" stroke="#9a8fd6" stroke-width="3"/>
+  <rect x="90" y="70" width="180" height="70" rx="10" fill="#7a5fd6"/>
+  <text x="180" y="112" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Financeiro</text>
+
+  <!-- RH -->
+  <line x1="450" y1="280" x2="180" y2="450" stroke="#9a8fd6" stroke-width="3"/>
+  <rect x="90" y="415" width="180" height="70" rx="10" fill="#7a5fd6"/>
+  <text x="180" y="457" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Recursos Humanos</text>
+
+  <!-- Vendas -->
+  <line x1="450" y1="280" x2="720" y2="110" stroke="#9a8fd6" stroke-width="3"/>
+  <rect x="630" y="70" width="180" height="70" rx="10" fill="#7a5fd6"/>
+  <text x="720" y="112" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Vendas / CRM</text>
+
+  <!-- Estoque -->
+  <line x1="450" y1="280" x2="720" y2="450" stroke="#9a8fd6" stroke-width="3"/>
+  <rect x="630" y="415" width="180" height="70" rx="10" fill="#7a5fd6"/>
+  <text x="720" y="450" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Estoque /</text>
+  <text x="720" y="470" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Logística</text>
+
+  <!-- Compras -->
+  <line x1="450" y1="280" x2="450" y2="30" stroke="#9a8fd6" stroke-width="3"/>
+  <rect x="360" y="0" width="180" height="55" rx="10" fill="#7a5fd6"/>
+  <text x="450" y="33" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Compras</text>
+
+  <!-- Produção -->
+  <line x1="450" y1="280" x2="450" y2="530" stroke="#9a8fd6" stroke-width="3"/>
+  <rect x="360" y="505" width="180" height="55" rx="10" fill="#7a5fd6"/>
+  <text x="450" y="538" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Produção</text>
+</svg>

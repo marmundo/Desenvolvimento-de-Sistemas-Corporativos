@@ -1,0 +1,33 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
+  <!-- Fundo -->
+  <rect x="0" y="0" width="900" height="560" fill="#ffffff"/>
+
+  <!-- Nível Estratégico (topo) -->
+  <polygon points="400,40 500,40 560,160 340,160" fill="#4a3b8f"/>
+  <text x="450" y="90" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="bold">Nível</text>
+  <text x="450" y="118" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="bold">Estratégico</text>
+
+  <!-- Nível Tático (meio) -->
+  <polygon points="340,160 560,160 640,320 260,320" fill="#7a5fd6"/>
+  <text x="450" y="230" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="bold">Nível Tático</text>
+
+  <!-- Nível Operacional (base) -->
+  <polygon points="260,320 640,320 740,520 160,520" fill="#c9bdf0"/>
+  <text x="450" y="410" text-anchor="middle" fill="#2b2140" font-size="22" font-weight="bold">Nível Operacional</text>
+
+  <!-- Rótulos laterais -->
+  <text x="700" y="95" fill="#2b2140" font-size="20" font-weight="bold">SAD / EIS</text>
+  <text x="695" y="120" fill="#5a5570" font-size="15">Decisões estratégicas</text>
+
+  <text x="770" y="235" fill="#2b2140" font-size="20" font-weight="bold">SIG</text>
+  <text x="720" y="260" fill="#5a5570" font-size="15">Relatórios gerenciais</text>
+
+  <text x="770" y="415" fill="#2b2140" font-size="20" font-weight="bold">SPT</text>
+  <text x="640" y="440" fill="#5a5570" font-size="15">Transações do dia a dia</text>
+
+  <!-- Linha e rótulo ERP -->
+  <line x1="450" y1="520" x2="450" y2="545" stroke="#2b2140" stroke-width="2"/>
+  <text x="450" y="558" text-anchor="middle" fill="#2b2140" font-size="18" font-style="italic">
+    ERP integra dados de todos os níveis em uma base única
+  </text>
+</svg>
