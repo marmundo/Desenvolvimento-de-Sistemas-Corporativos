@@ -1,7 +1,9 @@
 package br.edu.ifrn.petshop;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Classe {
-    public String ola() {
-        return "Olá, mundo!";
+    public void ola() {
+        System.out.println("Olá, mundo!");
     }
 }
