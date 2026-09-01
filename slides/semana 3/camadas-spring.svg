@@ -1,0 +1,49 @@
+<svg viewBox="0 0 860 480" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrowDown" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a4a4a"/>
+    </marker>
+    <marker id="arrowUp" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a4a4a"/>
+    </marker>
+  </defs>
+
+  <!-- Cliente -->
+  <rect x="330" y="10" width="200" height="50" rx="10" fill="#f0f0f0" stroke="#4a4a4a" stroke-width="2"/>
+  <text x="430" y="40" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">Cliente (HTTP)</text>
+
+  <!-- Seta cliente -> apresentacao -->
+  <line x1="400" y1="60" x2="400" y2="90" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <line x1="460" y1="90" x2="460" y2="60" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrowUp)"/>
+
+  <!-- Camada Apresentacao -->
+  <rect x="60" y="95" width="740" height="100" rx="14" fill="#e7f3ff" stroke="#2b7de9" stroke-width="2.5"/>
+  <text x="90" y="125" font-size="20" font-weight="bold" fill="#1a5bb8">Camada de Apresentação</text>
+  <text x="90" y="148" font-size="15" fill="#333">Recebe requisições, valida entrada e devolve respostas (JSON/HTML)</text>
+  <rect x="330" y="158" width="200" height="28" rx="6" fill="#2b7de9"/>
+  <text x="430" y="177" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">@RestController</text>
+
+  <!-- Seta apresentacao -> negocio -->
+  <line x1="400" y1="195" x2="400" y2="225" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <line x1="460" y1="225" x2="460" y2="195" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrowUp)"/>
+
+  <!-- Camada Negocio -->
+  <rect x="60" y="230" width="740" height="100" rx="14" fill="#fff3cd" stroke="#e6a817" stroke-width="2.5"/>
+  <text x="90" y="260" font-size="20" font-weight="bold" fill="#8a6510">Camada de Negócio</text>
+  <text x="90" y="283" font-size="15" fill="#333">Aplica regras de negócio, orquestra operações e validações complexas</text>
+  <rect x="330" y="293" width="200" height="28" rx="6" fill="#e6a817"/>
+  <text x="430" y="312" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">@Service</text>
+
+  <!-- Seta negocio -> dados -->
+  <line x1="400" y1="330" x2="400" y2="360" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <line x1="460" y1="360" x2="460" y2="330" stroke="#4a4a4a" stroke-width="2" marker-end="url(#arrowUp)"/>
+
+  <!-- Camada Dados -->
+  <rect x="60" y="365" width="740" height="100" rx="14" fill="#f3e7ff" stroke="#8b3fd6" stroke-width="2.5"/>
+  <text x="90" y="395" font-size="20" font-weight="bold" fill="#5c1f96">Camada de Dados</text>
+  <text x="90" y="418" font-size="15" fill="#333">Acessa e persiste informações; representa as entidades do domínio</text>
+  <rect x="255" y="428" width="150" height="28" rx="6" fill="#8b3fd6"/>
+  <text x="330" y="447" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">@Repository</text>
+  <rect x="455" y="428" width="150" height="28" rx="6" fill="#8b3fd6"/>
+  <text x="530" y="447" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">@Entity (Model)</text>
+</svg>

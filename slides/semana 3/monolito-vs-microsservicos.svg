@@ -1,0 +1,77 @@
+<svg viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+
+  <!-- Titulo Monolito -->
+  <text x="220" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a5bb8">Monolito em Camadas</text>
+
+  <!-- Bloco monolito -->
+  <rect x="60" y="45" width="320" height="330" rx="14" fill="#f7f9fc" stroke="#2b7de9" stroke-width="2.5"/>
+
+  <rect x="85" y="65" width="270" height="80" rx="10" fill="#e7f3ff" stroke="#2b7de9" stroke-width="2"/>
+  <text x="220" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a5bb8">Apresentação</text>
+  <text x="220" y="118" text-anchor="middle" font-size="12" fill="#333">Controller</text>
+
+  <rect x="85" y="160" width="270" height="80" rx="10" fill="#fff3cd" stroke="#e6a817" stroke-width="2"/>
+  <text x="220" y="190" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a6510">Negócio</text>
+  <text x="220" y="213" text-anchor="middle" font-size="12" fill="#333">Service</text>
+
+  <rect x="85" y="255" width="270" height="80" rx="10" fill="#f3e7ff" stroke="#8b3fd6" stroke-width="2"/>
+  <text x="220" y="285" text-anchor="middle" font-size="15" font-weight="bold" fill="#5c1f96">Dados</text>
+  <text x="220" y="308" text-anchor="middle" font-size="12" fill="#333">Repository / Model</text>
+
+  <rect x="85" y="345" width="270" height="20" rx="6" fill="#4a4a4a"/>
+  <text x="220" y="360" text-anchor="middle" font-size="11" fill="#fff">1 único banco de dados</text>
+
+  <text x="220" y="405" text-anchor="middle" font-size="13" fill="#333">Um único processo, um único JAR,</text>
+  <text x="220" y="423" text-anchor="middle" font-size="13" fill="#333">um único deploy — camadas internas</text>
+
+  <!-- Divisoria -->
+  <line x1="440" y1="45" x2="440" y2="440" stroke="#ccc" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- Titulo Microsservicos -->
+  <text x="680" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a8a5c">Microsserviços</text>
+
+  <!-- Servico 1 -->
+  <rect x="470" y="55" width="130" height="140" rx="12" fill="#e9f9f0" stroke="#1a8a5c" stroke-width="2"/>
+  <text x="535" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a8a5c">Serviço: Pedidos</text>
+  <rect x="482" y="85" width="106" height="24" rx="5" fill="#2b7de9"/>
+  <text x="535" y="101" text-anchor="middle" font-size="10" fill="#fff">Controller</text>
+  <rect x="482" y="115" width="106" height="24" rx="5" fill="#e6a817"/>
+  <text x="535" y="131" text-anchor="middle" font-size="10" fill="#fff">Service</text>
+  <rect x="482" y="145" width="106" height="24" rx="5" fill="#8b3fd6"/>
+  <text x="535" y="161" text-anchor="middle" font-size="10" fill="#fff">Repository</text>
+  <rect x="482" y="173" width="106" height="16" rx="4" fill="#4a4a4a"/>
+  <text x="535" y="185" text-anchor="middle" font-size="9" fill="#fff">BD próprio</text>
+
+  <!-- Servico 2 -->
+  <rect x="620" y="55" width="130" height="140" rx="12" fill="#e9f9f0" stroke="#1a8a5c" stroke-width="2"/>
+  <text x="685" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a8a5c">Serviço: Estoque</text>
+  <rect x="632" y="85" width="106" height="24" rx="5" fill="#2b7de9"/>
+  <text x="685" y="101" text-anchor="middle" font-size="10" fill="#fff">Controller</text>
+  <rect x="632" y="115" width="106" height="24" rx="5" fill="#e6a817"/>
+  <text x="685" y="131" text-anchor="middle" font-size="10" fill="#fff">Service</text>
+  <rect x="632" y="145" width="106" height="24" rx="5" fill="#8b3fd6"/>
+  <text x="685" y="161" text-anchor="middle" font-size="10" fill="#fff">Repository</text>
+  <rect x="632" y="173" width="106" height="16" rx="4" fill="#4a4a4a"/>
+  <text x="685" y="185" text-anchor="middle" font-size="9" fill="#fff">BD próprio</text>
+
+  <!-- Servico 3 -->
+  <rect x="545" y="215" width="130" height="140" rx="12" fill="#e9f9f0" stroke="#1a8a5c" stroke-width="2"/>
+  <text x="610" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a8a5c">Serviço: Pagamentos</text>
+  <rect x="557" y="245" width="106" height="24" rx="5" fill="#2b7de9"/>
+  <text x="610" y="261" text-anchor="middle" font-size="10" fill="#fff">Controller</text>
+  <rect x="557" y="275" width="106" height="24" rx="5" fill="#e6a817"/>
+  <text x="610" y="291" text-anchor="middle" font-size="10" fill="#fff">Service</text>
+  <rect x="557" y="305" width="106" height="24" rx="5" fill="#8b3fd6"/>
+  <text x="610" y="321" text-anchor="middle" font-size="10" fill="#fff">Repository</text>
+  <rect x="557" y="333" width="106" height="16" rx="4" fill="#4a4a4a"/>
+  <text x="610" y="345" text-anchor="middle" font-size="9" fill="#fff">BD próprio</text>
+
+  <!-- Conexoes entre servicos (rede) -->
+  <line x1="600" y1="140" x2="620" y2="140" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="600" y1="230" x2="620" y2="270" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="685" y1="195" x2="640" y2="215" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <text x="660" y="405" text-anchor="middle" font-size="13" fill="#333">Vários processos independentes,</text>
+  <text x="660" y="423" text-anchor="middle" font-size="13" fill="#333">comunicação via rede (REST/mensageria)</text>
+
+</svg>
