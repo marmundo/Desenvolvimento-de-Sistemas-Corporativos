@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -110 1280 870" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="-110" width="1280" height="870" fill="#f8fafc"/>
+<defs><marker id="h" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1L11 6L1 11z" fill="#fff" stroke="#475569" stroke-width="1.5"/></marker></defs>
+<g font-size="21" text-anchor="middle" font-weight="700">
+<rect x="490" y="90" width="300" height="70" rx="10" fill="#f1f5f9" stroke="#475569" stroke-width="2.5"/><text x="640" y="121" fill="#334155">Repository&lt;T, ID&gt;</text><text x="640" y="146" font-size="15" font-weight="400" fill="#475569">marcador, sem métodos</text>
+<rect x="490" y="200" width="300" height="70" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/><text x="640" y="231" fill="#075985">CrudRepository&lt;T, ID&gt;</text><text x="640" y="256" font-size="15" font-weight="400" fill="#075985">save, findById, delete, count</text>
+<rect x="250" y="320" width="330" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/><text x="415" y="351" fill="#5b21b6">ListCrudRepository</text><text x="415" y="376" font-size="15" font-weight="400" fill="#5b21b6">findAll devolve List</text>
+<rect x="700" y="320" width="330" height="70" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="2.5"/><text x="865" y="351" fill="#9d174d">PagingAndSortingRepository</text><text x="865" y="376" font-size="15" font-weight="400" fill="#9d174d">Pageable e Sort</text>
+<rect x="440" y="450" width="400" height="80" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text x="640" y="484" fill="#92400e">JpaRepository&lt;T, ID&gt;</text><text x="640" y="512" font-size="15" font-weight="400" fill="#92400e">flush, saveAndFlush, deleteAllInBatch</text>
+<rect x="440" y="600" width="400" height="80" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/><text x="640" y="634" fill="#166534">TaskRepository</text><text x="640" y="662" font-size="15" font-weight="400" fill="#166534">extends JpaRepository&lt;Task, Long&gt;</text>
+</g>
+<g stroke="#475569" stroke-width="2.5" fill="none">
+<path d="M640 200 V160" marker-end="url(#h)"/>
+<path d="M415 320 L560 270" marker-end="url(#h)"/>
+<path d="M865 320 L720 270" marker-end="url(#h)"/>
+<path d="M560 450 L440 390" marker-end="url(#h)"/>
+<path d="M720 450 L840 390" marker-end="url(#h)"/>
+<path d="M640 600 V530" marker-end="url(#h)"/>
+</g>
+<text x="1060" y="640" font-size="18" fill="#475569">Setas: "herda de"</text>
+</svg>
