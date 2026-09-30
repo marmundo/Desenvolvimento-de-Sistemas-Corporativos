@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Helvetica, Arial, sans-serif">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#374151"/></marker></defs>
+  <rect width="1280" height="720" fill="#f7f9fc"/>
+  <g text-anchor="middle">
+    <!-- Repository -->
+    <rect x="440" y="110" width="400" height="70" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="3"/>
+    <text x="640" y="140" font-size="22" font-weight="bold" fill="#374151">Repository&lt;T, ID&gt;</text>
+    <text x="640" y="166" font-size="16" fill="#374151">interface marcadora (sem métodos)</text>
+    <!-- CrudRepository -->
+    <rect x="440" y="215" width="400" height="90" rx="10" fill="#e8f0fe" stroke="#1a56db" stroke-width="3"/>
+    <text x="640" y="245" font-size="22" font-weight="bold" fill="#1a56db">CrudRepository</text>
+    <text x="640" y="272" font-size="16" fill="#1f2937">save, findById, existsById, count,</text>
+    <text x="640" y="292" font-size="16" fill="#1f2937">deleteById, findAll (Iterable)</text>
+    <!-- Lista e Paginacao -->
+    <rect x="200" y="340" width="380" height="90" rx="10" fill="#e8f0fe" stroke="#1a56db" stroke-width="3"/>
+    <text x="390" y="370" font-size="21" font-weight="bold" fill="#1a56db">ListCrudRepository</text>
+    <text x="390" y="397" font-size="16" fill="#1f2937">findAll() devolve List, saveAll devolve List</text>
+    <rect x="700" y="340" width="380" height="90" rx="10" fill="#e8f0fe" stroke="#1a56db" stroke-width="3"/>
+    <text x="890" y="370" font-size="21" font-weight="bold" fill="#1a56db">ListPagingAndSortingRepository</text>
+    <text x="890" y="397" font-size="16" fill="#1f2937">findAll(Sort), findAll(Pageable)</text>
+    <!-- JpaRepository -->
+    <rect x="390" y="470" width="500" height="100" rx="10" fill="#fff4e0" stroke="#d97706" stroke-width="4"/>
+    <text x="640" y="502" font-size="24" font-weight="bold" fill="#b45309">JpaRepository&lt;T, ID&gt;</text>
+    <text x="640" y="530" font-size="16" fill="#1f2937">tudo acima, mais flush, saveAndFlush,</text>
+    <text x="640" y="551" font-size="16" fill="#1f2937">deleteAllInBatch, getReferenceById</text>
+    <!-- Seu repositorio -->
+    <rect x="390" y="615" width="500" height="80" rx="10" fill="#e6f6ec" stroke="#15803d" stroke-width="4"/>
+    <text x="640" y="648" font-size="22" font-weight="bold" fill="#15803d">TaskRepository (o seu)</text>
+    <text x="640" y="675" font-size="16" fill="#1f2937">extends JpaRepository&lt;Task, Long&gt;</text>
+  </g>
+  <g stroke="#374151" stroke-width="3" marker-end="url(#a)">
+    <line x1="640" y1="212" x2="640" y2="184"/>
+    <line x1="500" y1="337" x2="600" y2="308"/>
+    <line x1="780" y1="337" x2="680" y2="308"/>
+    <line x1="500" y1="467" x2="420" y2="433"/>
+    <line x1="780" y1="467" x2="860" y2="433"/>
+    <line x1="640" y1="612" x2="640" y2="574"/>
+  </g>
+  <!-- Legenda -->
+  <text x="50" y="665" font-size="14" font-weight="bold" fill="#374151">LEGENDA:</text>
+
+  <!-- Cinza -->
+  <rect x="50" y="680" width="20" height="20" rx="3" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="80" y="695" font-size="13" fill="#374151">Interface base/marcadora (sem métodos)</text>
+
+  <!-- Azul -->
+  <rect x="50" y="710" width="20" height="20" rx="3" fill="#e8f0fe" stroke="#1a56db" stroke-width="2"/>
+  <text x="80" y="725" font-size="13" fill="#374151">Interfaces intermediárias (funcionalidades básicas)</text>
+
+  <!-- Laranja -->
+  <rect x="520" y="680" width="20" height="20" rx="3" fill="#fff4e0" stroke="#d97706" stroke-width="2"/>
+  <text x="550" y="695" font-size="13" fill="#374151">JpaRepository (interface recomendada em produção)</text>
+
+  <!-- Verde -->
+  <rect x="520" y="710" width="20" height="20" rx="3" fill="#e6f6ec" stroke="#15803d" stroke-width="2"/>
+  <text x="550" y="725" font-size="13" fill="#374151">Sua implementação (interface que você cria)</text>
+
+  <text x="1150" y="530" font-size="16" fill="#374151" text-anchor="middle">Seta indica</text>
+  <text x="1150" y="552" font-size="16" fill="#374151" text-anchor="middle">"extends"</text>
+</svg>

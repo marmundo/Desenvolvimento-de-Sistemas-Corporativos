@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -110 1280 870" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="-110" width="1280" height="870" fill="#f8fafc"/>
+<g font-size="26" font-weight="700" text-anchor="middle">
+<rect x="40" y="120" width="130" height="70" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/><text x="105" y="165" fill="#075985">find</text>
+<rect x="180" y="120" width="120" height="70" rx="10" fill="#f1f5f9" stroke="#475569" stroke-width="2.5"/><text x="240" y="165" fill="#334155">By</text>
+<rect x="310" y="120" width="170" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/><text x="395" y="165" fill="#5b21b6">Status</text>
+<rect x="490" y="120" width="110" height="70" rx="10" fill="#f1f5f9" stroke="#475569" stroke-width="2.5"/><text x="545" y="165" fill="#334155">And</text>
+<rect x="610" y="120" width="180" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/><text x="700" y="165" fill="#5b21b6">Priority</text>
+<rect x="800" y="120" width="130" height="70" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/><text x="865" y="165" fill="#92400e">OrderBy</text>
+<rect x="940" y="120" width="180" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2.5"/><text x="1030" y="165" fill="#5b21b6">DueDate</text>
+<rect x="1130" y="120" width="120" height="70" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/><text x="1190" y="165" fill="#92400e">Desc</text>
+</g>
+<g font-size="18" text-anchor="middle" fill="#475569">
+<text x="105" y="225">ação</text><text x="240" y="225">critério</text><text x="395" y="225">propriedade</text><text x="545" y="225">conector</text><text x="700" y="225">propriedade</text><text x="865" y="225">ordenação</text><text x="1030" y="225">propriedade</text><text x="1190" y="225">sentido</text>
+</g>
+<path d="M105 255 V300 M240 255 V300 M395 255 V300 M545 255 V300 M700 255 V300 M865 255 V300 M1030 255 V300 M1190 255 V300" stroke="#94a3b8" stroke-width="2"/>
+<text x="640" y="345" text-anchor="middle" font-size="22" font-weight="700" fill="#1e293b">O Spring Data lê o nome do método e monta o SQL</text>
+<rect x="90" y="380" width="1100" height="230" rx="14" fill="#0f172a"/>
+<g font-family="Consolas, monospace" font-size="24" fill="#e2e8f0">
+<text x="130" y="435" fill="#7dd3fc">SELECT</text><text x="235" y="435"> t.* </text>
+<text x="130" y="475" fill="#7dd3fc">FROM</text><text x="215" y="475"> tasks t</text>
+<text x="130" y="515" fill="#7dd3fc">WHERE</text><text x="235" y="515"> t.status = ? </text><text x="470" y="515" fill="#7dd3fc">AND</text><text x="535" y="515"> t.priority = ?</text>
+<text x="130" y="555" fill="#7dd3fc">ORDER BY</text><text x="290" y="555"> t.due_date </text><text x="480" y="555" fill="#7dd3fc">DESC</text>
+</g>
+<text x="640" y="665" text-anchor="middle" font-size="20" fill="#475569">Se a propriedade não existir na entidade, a aplicação falha ao iniciar</text>
+</svg>
